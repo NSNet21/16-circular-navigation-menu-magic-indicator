@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Circular Navigation Menu Magic Indicator</title>
+    <link rel="stylesheet" href="style.css" />
+    <!-- icon from boxicons -->
+    <link
+      href="https://cdn.boxicons.com/3.0.3/fonts/basic/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="footer">
+      <h1>Circular Navigation Menu Magic Indicator</h1>
+    </div>
+    <ul class="menu" id="menuList">
+      <div class="toggle" id="toggleBtn">
+        <i class="bx bx-plus"></i>
+      </div>
+      <li style="--i: 0" class="active">
+        <a href="#"><i class="bx bx-home-alt"></i> </a>
+      </li>
+      <li style="--i: 1">
+        <a href="#"><i class="bx bx-user"></i> </a>
+      </li>
+      <li style="--i: 2">
+        <a href="#"><i class="bx bxs-cog"></i> </a>
+      </li>
+      <li style="--i: 3">
+        <a href="#"><i class="bx bx-envelope"></i> </a>
+      </li>
+      <li style="--i: 4">
+        <a href="#"><i class="bx bx-video"></i> </a>
+      </li>
+      <li style="--i: 5">
+        <a href="#"><i class="bx bx-car-key"></i> </a>
+      </li>
+      <li style="--i: 6">
+        <a href="#"> <i class="bx bx-joystick"></i> </a>
+      </li>
+      <li style="--i: 7">
+        <a href="#"><i class="bx bx-camera"></i></a>
+      </li>
+      <!-- total number of list item is 8 -->
+      <div class="indicator" id="indicator"></div>
+    </ul>
+    <script src="script.js"></script>
+  </body>
+</html>
