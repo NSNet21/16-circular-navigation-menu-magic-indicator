@@ -92,7 +92,7 @@ The palette creates strong contrast between **accent** (focus indicator) and **b
 
 ## 📘 Technical Notes
 
-### 🔹 1. Circular Positioning Formula
+### 🔹 <u>1. Circular Positioning Formula</u>
 
 Each menu item is placed evenly along a circle using:
 
@@ -107,7 +107,7 @@ transform: rotate(calc(360deg / 8 * var(--i))) translateX(42px);
 
   ***
 
-### 🔹 2. Active State & Indicator Logic
+### 🔹 <u>2. Active State & Indicator Logic</u>
 
 When an item becomes `.active`, the `.indicator` rotates using sibling selectors:
 
@@ -123,10 +123,9 @@ When an item becomes `.active`, the `.indicator` rotates using sibling selectors
 
   The result: an _**orbiting highlight**_ that locks perfectly to each icon position.
 
-
 ---
 
-### 🔹 3. Blocking Transition for Sync Reset
+### 🔹 <u>3. Blocking Transition for Sync Reset</u>
 
 When toggling the menu:
 
@@ -140,7 +139,7 @@ After 300ms (using `setTimeout`), the blocking class is removed — giving a smo
 
 ---
 
-### 🔹 4. Toggle Button Rotation
+### 🔹 <u>4. Toggle Button Rotation</u>
 
 The center “plus” icon rotates `315°` to visually indicate menu expansion:
 
