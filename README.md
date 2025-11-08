@@ -105,7 +105,7 @@ transform: rotate(calc(360deg / 8 * var(--i))) translateX(42px);
 - `transform-origin: 150px` ensures all icons orbit around the same point
   This creates a mathematically perfect circular layout.
 
-  ***
+---
 
 ### 🔹 <u>2. Active State & Indicator Logic</u>
 
